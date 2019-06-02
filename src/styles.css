@@ -1,0 +1,114 @@
+/* You can add global styles to this file, and also import other style files */
+app-root,app-myfirstcomp{display:block;}
+.divdetails{
+    background-color: #038fa3;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+ }
+ .p0{
+    padding:0px;
+}
+.width100per{
+    width:100%;
+}
+.relative{
+    position:relative;
+}
+.displayInlineBlock{
+    display: inline-block
+}
+.verticalAlignTop{
+    vertical-align: top;
+}
+.verticalAlignMiddle{
+    vertical-align: middle;
+}
+.Fimage{
+    background-image: url(assets/images/FruitList.jpg);
+    height: 120px;
+    width: 144px;
+}
+.Fimage.apple{
+    background-position: -1px -1px;
+}
+.Fimage.apricot{
+    background-position: -162px 1px;
+}
+.Fimage.asian_persimmon {
+    background-position: -326px -2px;
+}
+.Fimage.avocado{
+    background-position: -487px 0px;
+}
+.Fimage.wood_apple{
+    background-position: -651px 0px;
+}
+.Fimage.banana {
+    background-position: -817px 0px;
+}
+.Fimage.black_barry {
+    background-position: -979px 0px;
+}
+.Fimage.blue_barry {
+    background-position: -1137px 0px;
+}
+.list-group{
+    overflow: auto;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+.list-group .list-group-item {
+    margin-right: 2%;
+    position: relative;
+    padding:3px;
+}
+.arrow {
+    padding: 2px;
+    position: absolute;
+    top: calc(50% - (76px/2));
+    z-index: 1;
+    transition: all 0.3s;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.arrow.left{
+    left: 0px;
+}
+.arrow:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.arrow.right{
+    right: 0px;
+}
+.productList .badge {
+    cursor: pointer;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    border-radius: 0px;
+    z-index: 1;
+    padding: 0px;
+}
+.selected-product-placeholder {
+    height: 120px;
+    width: 144px;
+    background: #011b3c;
+    color: #fff;
+    padding: 23px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.selected-product-list{
+    height: calc(100vh - 100px);
+    overflow:auto;
+}
+textarea.form-control{
+    width: calc(100% - 160px);
+    display: inline-block;
+    float: right;
+}
+.btn{
+    margin-right: 10px;
+}
